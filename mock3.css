@@ -1,0 +1,36 @@
+img{
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 35px;
+    border: 3px solid khaki;
+}
+
+.eat:hover img, .dance:hover img, .hifive:hover img {
+    filter: brightness(50%);
+}
+
+.eat, .dance, .hifive {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.eat div, .dance div, .hifive div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.eat:hover div, .dance:hover div, .hifive:hover div {
+    opacity: 1;
+}

@@ -1,0 +1,26 @@
+img{
+    padding: 0;
+    width: 450px;
+    height: 200px;
+    object-fit: cover;
+}
+
+div hr{
+    width: 448px;
+    margin-left: 0;
+    border: .5px solid #C0AB8C;
+}
+div h2, p{
+    width: 400px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+div{
+    width: fit-content;
+    background-color: #E3E5DF;
+    border: 2px groove #C0AB8C;
+    border-radius: 10px;
+}
+
+/* I know it's not perfect but it's the closest I could figure */
